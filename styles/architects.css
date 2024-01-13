@@ -7,7 +7,8 @@
 /* common section  */
 
 .banner img,
-.teams-container img, .feature-img img {
+.teams-container img,
+.feature-img img {
     filter: blur(10px);
 }
 
@@ -143,6 +144,36 @@ main {
     font-weight: 700;
 }
 
+/* features section style  */
+.features {
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+.features .section-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-content .card {
+    padding: 30px 40px 30px 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.ten-exp {
+    color: #FFF;
+    width: 342px;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 40px;
+}
+.ten-exp h2{
+    font-size: 4rem;
+}
 
 /* facts secton style */
 
@@ -151,8 +182,7 @@ main {
     justify-content: space-around;
 }
 
-.card {
-
+.facts-card-container .card {
     text-align: center;
     border-radius: 8px;
     border: 1px solid #FF900E;
