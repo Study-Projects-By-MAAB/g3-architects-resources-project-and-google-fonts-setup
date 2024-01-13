@@ -238,6 +238,19 @@ main {
     width: 165px;
 }
 
+
+/* footer section style */
+
+.f-p {
+    text-align: center;
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding: 39px 410px;
+    margin: 130px 240px ;
+}
+
+
+
 /* responsive media query styles */
 
 @media screen and (max-width:576px) {
@@ -268,6 +281,10 @@ main {
     .facts-card-container {
         padding: 20px 20px;
     }
+    .f-p{
+        padding: 20px;
+        margin: 20px;
+    }
 }
 
 .facts-card-container {
@@ -286,6 +303,10 @@ main {
     .sponsors-imgs,
     .features {
         flex-direction: column;
+    }
+    .f-p{
+        padding: 30px;
+        margin: 30px;
     }
 
 }
