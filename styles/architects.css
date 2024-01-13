@@ -7,7 +7,7 @@
 /* common section  */
 
 .banner img,
-.teams-container img {
+.teams-container img, .feature-img img {
     filter: blur(10px);
 }
 
