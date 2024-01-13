@@ -246,7 +246,7 @@ main {
     border-radius: 8px;
     background: #FFF4E7;
     padding: 39px 410px;
-    margin: 130px 240px ;
+    margin: 130px 240px;
 }
 
 
@@ -281,7 +281,8 @@ main {
     .facts-card-container {
         padding: 20px 20px;
     }
-    .f-p{
+
+    .f-p {
         padding: 20px;
         margin: 20px;
     }
@@ -304,7 +305,8 @@ main {
     .features {
         flex-direction: column;
     }
-    .f-p{
+
+    .f-p {
         padding: 30px;
         margin: 30px;
     }
