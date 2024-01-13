@@ -151,6 +151,10 @@ main {
     gap: 100px;
 }
 
+.features .feature-img {
+    margin-left: 50px;
+}
+
 .features .section-title {
     border-left: 5px solid #FF900E;
     padding-left: 20px;
@@ -165,15 +169,25 @@ main {
 }
 
 .ten-exp {
+    text-align: center;
     color: #FFF;
     width: 342px;
     border-radius: 8px;
     background: #FF900E;
     padding: 40px;
+    position: relative;
+    bottom: 77px;
+    right: 92px;
 }
 
 .ten-exp h2 {
+    margin: 0;
     font-size: 4rem;
+}
+
+.ten-exp p {
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 /* facts secton style */
@@ -236,11 +250,15 @@ main {
     nav,
     .teams-container,
     .facts-card-container,
-    .sponsors-imgs {
+    .sponsors-imgs,
+    .features {
         flex-direction: column;
     }
 
-
+    .feature-img img {
+        width: 100%;
+        margin-left: 0;
+    }
 
     .team-img-container {
         grid-template-columns: repeat(1, 1fr);
@@ -265,7 +283,8 @@ main {
 
     nav,
     .teams-container,
-    .sponsors-imgs {
+    .sponsors-imgs,
+    .features {
         flex-direction: column;
     }
 
